@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400,600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--https://fontawesome.com/v4/-->
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+        <h1>CONTACT US</h1>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Maharashtra,Nallasoopara,IN</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>
+                        <h5>+91 5678575757</h5>
+                        <p>Monday to Saturday,10AM to PM</p>
+                    </span>
+
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <span>
+                        <h5>varthakcollege@avc.ac.in</h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter your Name" required>
+                    <input type="email" placeholder="Enter Email Id" required>
+                    <input type="email" placeholder="Enter your subject" required>
+                    <textarea rows="8 " placeholder="Messaget" required></textarea>
+                    <button type="submit" class="hero-btn red-btn"> POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Fugit nobis minima delectus totam recusandae
+            vero culpa modi tenetur omnis ducimus.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i>
+            by Gokhul Kooranchi </p>
+        </footer>
+</body>
+
+</html>
